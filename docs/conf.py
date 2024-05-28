@@ -20,8 +20,8 @@ sys.path.insert(0, os.path.abspath(".."))
 # -- Project information -----------------------------------------------------
 
 project = "Ivy"
-copyright = "2020-2023, Unify"
-author = "Unify"
+copyright = "2024, Transpile AI"
+author = "Transpile AI"
 
 # The full version, including alpha/beta/rc tags
 release = os.getenv("IVY_VERSION") or "dev"
@@ -83,7 +83,7 @@ html_theme_options = {
     "logo": {
         "image_light": "https://uploads-ssl.webflow.com/643fb31f2ef62cf324fab8ca/65423c2ce1f61fda416b592c_logo_unify.svg",  # noqa: E501
         "image_dark": "https://assets-global.website-files.com/643fb31f2ef62cf324fab8ca/6546745c0b48a47df4098dec_logo_unify-white.svg",  # noqa: E501
-        "link": "https://unify.ai",
+        "link": "https://ivy.dev",
     },
     "switcher": {"version_match": release},
     "analytics": {
@@ -214,4 +214,4 @@ def linkcode_resolve(domain, info):
     if lineno:
         linespec = "#L%d-L%d" % (lineno, lineno + len(source) - 1)
 
-    return f"https://github.com/unifyai/{repo_name}/blob/main/{mod_name}/{fn}{linespec}"
+    return f"https://github.com/Transpile-AI/{repo_name}/blob/main/{mod_name}/{fn}{linespec}"
