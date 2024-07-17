@@ -20,8 +20,8 @@ sys.path.insert(0, os.path.abspath(".."))
 # -- Project information -----------------------------------------------------
 
 project = "Ivy"
-copyright = "2020-2023, Unify"
-author = "Unify"
+copyright = "2024 [Ivy], All rights reserved."
+author = "Ivy"
 
 # The full version, including alpha/beta/rc tags
 release = os.getenv("IVY_VERSION") or "dev"
@@ -71,9 +71,7 @@ html_css_files = [
     "css/custom.css",
     "https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900",
 ]
-html_js_files = [
-    "js/kapa.ai.js",
-]
+html_js_files = []
 
 html_theme_options = {
     "navbar_end": ["version-switcher", "theme-switcher", "navbar-icon-links"],
@@ -83,7 +81,7 @@ html_theme_options = {
     "logo": {
         "image_light": "https://uploads-ssl.webflow.com/643fb31f2ef62cf324fab8ca/65423c2ce1f61fda416b592c_logo_unify.svg",  # noqa: E501
         "image_dark": "https://assets-global.website-files.com/643fb31f2ef62cf324fab8ca/6546745c0b48a47df4098dec_logo_unify-white.svg",  # noqa: E501
-        "link": "https://unify.ai",
+        "link": "https://ivy.dev",
     },
     "switcher": {"version_match": release},
     "analytics": {
@@ -95,10 +93,7 @@ html_sidebars = {"**": ["custom-toc-tree", "ivy-libraries"]}
 
 html_title = "Ivy Documentation"
 
-html_favicon = (
-    "https://github.com/unifyai/unifyai.github.io"
-    + "/blob/main/img/externally_linked/ivy_logo_only.png?raw=true"
-)
+html_favicon = "https://raw.githubusercontent.com/ivy-llc/ivy-llc.github.io/main/src/assets/spiral_logo.svg"
 
 autodoc_member_order = "alphabetical"
 
@@ -214,4 +209,4 @@ def linkcode_resolve(domain, info):
     if lineno:
         linespec = "#L%d-L%d" % (lineno, lineno + len(source) - 1)
 
-    return f"https://github.com/unifyai/{repo_name}/blob/main/{mod_name}/{fn}{linespec}"
+    return f"https://github.com/ivy-llc/{repo_name}/blob/main/{mod_name}/{fn}{linespec}"
