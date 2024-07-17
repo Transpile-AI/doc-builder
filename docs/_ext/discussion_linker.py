@@ -12,9 +12,6 @@ class DiscussionLinks(SphinxDirective):
 
     def run(self):
         module = self.content[0]
-        if module not in self.config["discussion_channel_map"]:
-            return []
-
         text = self.config["discussion_paragraph"]
 
         text = text.replace("{{submodule}}", module.split(".")[-1])
