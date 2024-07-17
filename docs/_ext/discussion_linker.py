@@ -19,10 +19,6 @@ class DiscussionLinks(SphinxDirective):
 
         text = text.replace("{{submodule}}", module.split(".")[-1])
         text = text.replace("{{discord_link}}", self.config["discord_link"])
-        text = text.replace("{{channel_link}}", self.config["channel_link"])
-        text = text.replace(
-            "{{channel_id}}", self.config["discussion_channel_map"][module][0]
-        )
 
         # Convert markdown style links to reference nodes
         paragraph_node = nodes.paragraph()
@@ -50,16 +46,10 @@ def setup(app: Sphinx):
         "discussion_paragraph",
         "This should have hopefully given you an overview of the {{submodule}} "
         "submodule, if you have any questions, please feel free to reach out on our "
-        "[discord]({{discord_link}}) in the [{{submodule}} channel]({{channel_link}})!",
+        "[discord]({{discord_link}})!",
         "env",
     )
-    app.add_config_value("discord_link", "https://discord.gg/ZVQdvbzNQJ", "env")
-    app.add_config_value(
-        "channel_link",
-        "https://discord.com/channels/799879767196958751/{{channel_id}}",
-        "env",
-    )
-    app.add_config_value("discussion_channel_map", {}, "env")
+    app.add_config_value("discord_link", "https://discord.gg/r5mcSAfp", "env")
 
     return {
         "version": "0.1",
