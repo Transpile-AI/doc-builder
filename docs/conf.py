@@ -20,7 +20,7 @@ sys.path.insert(0, os.path.abspath(".."))
 # -- Project information -----------------------------------------------------
 
 project = "Ivy"
-copyright = "2024 [Ivy], All rights reserved."
+copyright = "2024 [Ivy], All rights reserved"
 author = "Ivy"
 
 # The full version, including alpha/beta/rc tags
@@ -74,7 +74,7 @@ html_css_files = [
 html_js_files = []
 
 html_theme_options = {
-    "navbar_end": ["version-switcher", "theme-switcher", "navbar-icon-links"],
+    "navbar_end": ["theme-switcher", "navbar-icon-links"],
     "navbar_persistent": ["search-button"],
     "header_links_before_dropdown": 100,
     "secondary_sidebar_items": ["page-toc"],
