@@ -74,8 +74,6 @@ html_css_files = [
 html_js_files = []
 
 html_theme_options = {
-    "navbar_end": ["theme-switcher", "navbar-icon-links"],
-    "navbar_persistent": ["search-button"],
     "header_links_before_dropdown": 100,
     "secondary_sidebar_items": ["page-toc"],
     "logo": {
@@ -89,7 +87,12 @@ html_theme_options = {
     }
 }
 
-html_sidebars = {"**": ["custom-toc-tree", "ivy-libraries"]}
+html_sidebars = {
+    "**": [
+        "custom-toc-tree",
+        "ivy-libraries",
+    ]
+}
 
 html_title = "Ivy Documentation"
 
