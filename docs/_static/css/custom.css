@@ -10,12 +10,12 @@
 .wy-dropdown-menu>dd>a:hover,
 .wy-dropdown-menu a:hover,
 .wy-nav-top {
-    background-color: #009600 !important;
+    background-color: #9477bf !important;
 }
 
 .wy-menu-vertical header,
 .wy-menu-vertical p.caption {
-    color: #009600;
+    color: #9477bf;
 }
 
 .wy-menu-vertical a:visited {
@@ -30,14 +30,14 @@
 .rst-content code.literal,
 .rst-content tt.literal,
 .rst-content span.literal {
-    color: #009600;
+    color: #9477bf;
 }
 
 html.writer-html4 .rst-content dl:not(.docutils)>dt,
 html.writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(.footnote):not(.glossary):not(.simple)>dt {
     background: #ebffe1;
-    color: #006400;
-    border-top: solid 3px #009600;
+    color: #9477bf;
+    border-top: solid 3px #9477bf;
 }
 
 .rst-content .note,
@@ -83,12 +83,12 @@ html.writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(
 .rst-content .wy-alert.wy-alert-info .admonition-title,
 .wy-alert.wy-alert-info .rst-content .admonition-title,
 .wy-alert.wy-alert-info .wy-alert-title {
-    background-color: #009600 !important;
+    background-color: #9477bf !important;
     color: #fff;
 }
 
 .highlight .gp {
-    color: #006400;
+    color: #9477bf;
 }
 
 @media only screen and (min-width: 500px) {
@@ -153,14 +153,14 @@ html.writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(
 }
 
 html[data-theme="light"] {
-    --pst-color-primary: #35A835;
-    --pst-color-secondary: #00a824;
+    --pst-color-primary: #9477bf;
+    --pst-color-secondary: #9477bf;
 }
 
 html[data-theme="dark"] {
     --pst-font-color-heading: #E9E9EA;
-    --pst-color-primary: #35A835;
-    --pst-color-secondary: #00a824;
+    --pst-color-primary: #9477bf;
+    --pst-color-secondary: #9477bf;
 }
 
 a.current.reference.internal {
@@ -215,7 +215,7 @@ nav.bd-docs-nav {
 }
 
 .w-nav-link:hover {
-    color: #00a824 !important;
+    color: #9477bf !important;
 }
 
 .dropdown-menu.show {
