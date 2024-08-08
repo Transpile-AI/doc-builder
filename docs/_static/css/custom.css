@@ -164,7 +164,7 @@ html[data-theme="dark"] {
 }
 
 a.current.reference.internal {
-    background: rgba(53, 168, 53, 0.1);
+    background: #584771;
     padding-left: 10px;
     margin-left: -10px;
     /* border-radius: 8px; */
