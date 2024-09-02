@@ -96,7 +96,7 @@ html_sidebars = {
 
 html_title = "Ivy Documentation"
 
-html_favicon = "https://raw.githubusercontent.com/ivy-llc/ivy-llc.github.io/main/src/assets/spiral_logo.svg"
+html_favicon = "https://raw.githubusercontent.com/ivy-llc/assets/ef677f0eb3e9ee756cf766e3ac0088eb8c187713/assets/spiral_logo.svg"
 
 autodoc_member_order = "alphabetical"
 
