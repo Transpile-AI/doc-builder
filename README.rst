@@ -1,13 +1,7 @@
 .. raw:: html
 
    <div style="display: block;" align="center">
-       <img class="only-dark" width="30%" src="https://raw.githubusercontent.com/ivy-llc/ivy-llc.github.io/main/src/assets/doc_builder_logo_dark.svg#gh-dark-mode-only"/>
-   </div>
-
-.. raw:: html
-
-   <div style="display: block;" align="center">
-       <img class="only-light" width="30%" src="https://raw.githubusercontent.com/ivy-llc/ivy-llc.github.io/main/src/assets/doc_builder_logo_light.svg#gh-light-mode-only"/>
+       <img class="dark-light" width="30%" src="https://raw.githubusercontent.com/ivy-llc/assets/refs/heads/main/assets/logos/ivy-doc-builder.svg"/>
    </div>
 
 **Simple Documentation Builder for Ivy Projects.**
