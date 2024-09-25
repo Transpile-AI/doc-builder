@@ -163,11 +163,16 @@ html[data-theme="dark"] {
     --pst-color-secondary: #9477bf;
 }
 
-a.current.reference.internal {
+html[data-theme="dark"] a.current.reference.internal {
     background: #2a1c33;
     padding-left: 10px;
     margin-left: -10px;
-    /* border-radius: 8px; */
+}
+
+html[data-theme="light"] a.current.reference.internal {
+    background: #f0eff4;
+    padding-left: 10px;
+    margin-left: -10px;
 }
 
 h1,
